@@ -2,6 +2,7 @@ import fs from "node:fs";
 
 const indexPath = "index.html";
 const outputPath = "weather-forecast.json";
+const dailyLogPath = "weather-daily-log.json";
 
 function extractJsonArray(source, variableName) {
   const marker = `const ${variableName} = `;
@@ -110,3 +111,50 @@ const payload = {
 };
 
 fs.writeFileSync(outputPath, JSON.stringify(payload, null, 2) + "\n");
+
+function readDailyLog() {
+  if (!fs.existsSync(dailyLogPath)) {
+    return {
+      generated_at: new Date().toISOString(),
+      source: "Daily snapshots accumulated from Open-Meteo forecast runs",
+      points: {}
+    };
+  }
+  return JSON.parse(fs.readFileSync(dailyLogPath, "utf8"));
+}
+
+const dailyLog = readDailyLog();
+dailyLog.generated_at = new Date().toISOString();
+for (const [id, point] of Object.entries(points)) {
+  const today = point.days?.[0];
+  if (!today) continue;
+  if (!dailyLog.points[id]) {
+    dailyLog.points[id] = {
+      country_en: point.country_en,
+      province_en: point.province_en,
+      district_en: point.district_en,
+      lat: point.lat,
+      lon: point.lon,
+      records: []
+    };
+  }
+  const records = dailyLog.points[id].records;
+  const snapshot = {
+    date: today.date,
+    rain_mm: today.rain_mm,
+    rain_probability_pct: today.rain_probability_pct,
+    tmax_c: today.tmax_c,
+    tmin_c: today.tmin_c,
+    risk: point.risk,
+    rain3d_mm: point.rain3d_mm,
+    max_temp_3d_c: point.max_temp_3d_c,
+    wet_days_3d: point.wet_days_3d
+  };
+  const existingIndex = records.findIndex((record) => record.date === snapshot.date);
+  if (existingIndex >= 0) records[existingIndex] = snapshot;
+  else records.push(snapshot);
+  records.sort((a, b) => a.date.localeCompare(b.date));
+  if (records.length > 730) records.splice(0, records.length - 730);
+}
+
+fs.writeFileSync(dailyLogPath, JSON.stringify(dailyLog, null, 2) + "\n");
