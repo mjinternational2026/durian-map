@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-07-01T11:29:39.053Z",
+  "source": "Thailand durian-area daily weather risk extracted from local PDF records",
+  "coverage_note": "历史天气目前覆盖泰国主要榴莲省级产区；其他国家点位会显示自动预报。",
+  "provinces": {
+    "Chanthaburi": {
+      "latest_date": "2026-06-30",
+      "station": "CHANTHA BURI",
+      "latest": {
+        "rain_mm": 5,
+        "tmax_c": 32.5,
+        "humidity_pct": 90,
+        "wind_knot": 0,
+        "risk_level": "中",
+        "business_signal": "Chanthaburi 小到中雨 5mm；湿度 90% 偏高；采收、通风、装车和短途运输需关注。"
+      },
+      "recent_14d": {
+        "rain_total_mm": 168.4,
+        "wet_days": 9,
+        "heavy_rain_days": 4,
+        "max_risk_level": "中高"
+      }
+    },
+    "Chumphon": {
+      "latest_date": "2026-06-30",
+      "station": "CHUMPHON",
+      "latest": {
+        "rain_mm": 4.2,
+        "tmax_c": 31.5,
+        "humidity_pct": 94,
+        "wind_knot": 0,
+        "risk_level": "中",
+        "business_signal": "Chumphon 小雨 4.2mm；湿度 94% 偏高；采收、通风、装车和短途运输需关注。"
+      },
+      "recent_14d": {
+        "rain_total_mm": 6.7,
+        "wet_days": 2,
+        "heavy_rain_days": 0,
+        "max_risk_level": "中"
+      }
+    },
+    "Nakhon Si Thammarat": {
+      "latest_date": "2026-06-30",
+      "station": "NAKHONSI THAMMARAT",
+      "latest": {
+        "rain_mm": 0,
+        "tmax_c": 34.5,
+        "humidity_pct": 88,
+        "wind_knot": 0,
+        "risk_level": "低",
+        "business_signal": "Nakhon Si Thammarat 无明显降雨；天气风险低。"
+      },
+      "recent_14d": {
+        "rain_total_mm": 43.3,
+        "wet_days": 4,
+        "heavy_rain_days": 1,
+        "max_risk_level": "高"
+      }
+    },
+    "Rayong": {
+      "latest_date": "2026-06-30",
+      "station": "RAYONG",
+      "latest": {
+        "rain_mm": 0,
+        "tmax_c": 32,
+        "humidity_pct": 67,
+        "wind_knot": 4,
+        "risk_level": "低",
+        "business_signal": "Rayong 无明显降雨；天气风险低。"
+      },
+      "recent_14d": {
+        "rain_total_mm": 40.4,
+        "wet_days": 3,
+        "heavy_rain_days": 1,
+        "max_risk_level": "高"
+      }
+    },
+    "Sisaket": {
+      "latest_date": "2026-06-30",
+      "station": "SI SAKET AGROMET.",
+      "latest": {
+        "rain_mm": 5.3,
+        "tmax_c": 36,
+        "humidity_pct": 96,
+        "wind_knot": 0,
+        "risk_level": "中高",
+        "business_signal": "Sisaket 小到中雨 5.3mm；湿度 96% 偏高；最高温 36C 偏高；采收、通风、装车和短途运输需关注。"
+      },
+      "recent_14d": {
+        "rain_total_mm": 8.8,
+        "wet_days": 2,
+        "heavy_rain_days": 0,
+        "max_risk_level": "中高"
+      }
+    },
+    "Surat Thani": {
+      "latest_date": "2026-06-30",
+      "station": "SURAT THANI",
+      "latest": {
+        "rain_mm": 0,
+        "tmax_c": 32,
+        "humidity_pct": 99,
+        "wind_knot": 0,
+        "risk_level": "中",
+        "business_signal": "Surat Thani 无明显降雨；湿度 99% 极高；采收、通风、装车和短途运输需关注。"
+      },
+      "recent_14d": {
+        "rain_total_mm": 102.5,
+        "wet_days": 6,
+        "heavy_rain_days": 2,
+        "max_risk_level": "高"
+      }
+    },
+    "Trat": {
+      "latest_date": "2026-06-30",
+      "station": "TRAD",
+      "latest": {
+        "rain_mm": 3,
+        "tmax_c": 31.9,
+        "humidity_pct": 81,
+        "wind_knot": 7,
+        "risk_level": "低",
+        "business_signal": "Trat 小雨 3mm；天气风险低。"
+      },
+      "recent_14d": {
+        "rain_total_mm": 164.2,
+        "wet_days": 9,
+        "heavy_rain_days": 3,
+        "max_risk_level": "高"
+      }
+    }
+  }
+}
