@@ -29,30 +29,3 @@ jobs:
           git add weather-forecast.json weather-daily-log.json
           git diff --cached --quiet || git commit -m "Update weather forecast and daily history"
           git push
-name: Update weather forecast
-
-on:
-  schedule:
-    # 06:30 Thailand time. GitHub schedules use UTC.
-    - cron: "30 23 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  update-weather:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-      - run: node scripts/update_weather.mjs
-      - name: Commit weather forecast and daily history
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add weather-forecast.json weather-daily-log.json
-          git diff --cached --quiet || git commit -m "Update weather forecast and daily history"
-          git push
