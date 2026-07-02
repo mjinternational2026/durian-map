@@ -120,6 +120,10 @@ for (let i = 0; i < areas.length; i += 40) {
   }
 }
 
+if (!Object.keys(points).length) {
+  throw new Error(`No weather points were updated. Errors: ${JSON.stringify(errors)}`);
+}
+
 const payload = {
   generated_at: new Date().toISOString(),
   source: "Open-Meteo daily forecast",
