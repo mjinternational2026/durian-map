@@ -59,7 +59,7 @@ async function fetchForecast(chunk) {
     latitude: chunk.map((area) => area.lat).join(","),
     longitude: chunk.map((area) => area.lon).join(","),
     daily: "temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max",
-    forecast_days: "5",
+    forecast_days: "14",
     timezone: "auto"
   });
   const response = await fetch(`https://api.open-meteo.com/v1/forecast?${params.toString()}`);
@@ -105,7 +105,7 @@ for (let i = 0; i < areas.length; i += 40) {
 const payload = {
   generated_at: new Date().toISOString(),
   source: "Open-Meteo daily forecast",
-  coverage_note: "未来5天天气预报按地图点位坐标自动更新；采收风险为经营提示，不替代当地实测。",
+  coverage_note: "未来14天天气预报按地图点位坐标自动更新；采收风险为经营提示，不替代当地实测。",
   points,
   errors
 };
