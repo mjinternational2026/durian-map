@@ -4,10 +4,6 @@ on:
   schedule:
     # 06:30 Thailand time. GitHub schedules use UTC.
     - cron: "30 23 * * *"
-  push:
-    paths:
-      - ".github/workflows/update-weather.yml"
-      - "scripts/update_weather.mjs"
   workflow_dispatch:
 
 permissions:
