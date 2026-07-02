@@ -54,12 +54,28 @@ function riskFromForecast(days) {
   return { risk, rain3d_mm: Number(rain3d.toFixed(1)), max_temp_3d_c: Number(maxTemp.toFixed(1)), wet_days_3d: wetDays, reason: reasons.join("；") };
 }
 
+function riskFromObserved(day) {
+  let risk = "低";
+  if (day.rain_mm >= 80 || day.tmax_c >= 38) risk = "高";
+  else if (day.rain_mm >= 40 || day.tmax_c >= 36) risk = "中高";
+  else if (day.rain_mm >= 5 || day.tmax_c >= 34) risk = "中";
+  return risk;
+}
+
+function splitPastAndForecastDays(days) {
+  return {
+    yesterday: days[0] || null,
+    forecastDays: days.slice(1, 15)
+  };
+}
+
 async function fetchForecast(chunk) {
   const params = new URLSearchParams({
     latitude: chunk.map((area) => area.lat).join(","),
     longitude: chunk.map((area) => area.lon).join(","),
     daily: "temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max",
     forecast_days: "14",
+    past_days: "1",
     timezone: "auto"
   });
   const response = await fetch(`https://api.open-meteo.com/v1/forecast?${params.toString()}`);
@@ -80,21 +96,23 @@ for (let i = 0; i < areas.length; i += 40) {
     forecasts.forEach((forecast, offset) => {
       const area = chunk[offset];
       if (!area || !forecast?.daily) return;
-      const days = forecast.daily.time.map((date, idx) => ({
+      const allDays = forecast.daily.time.map((date, idx) => ({
         date,
         rain_mm: Number(forecast.daily.precipitation_sum[idx] ?? 0),
         rain_probability_pct: Number(forecast.daily.precipitation_probability_max[idx] ?? 0),
         tmax_c: Number(forecast.daily.temperature_2m_max[idx] ?? 0),
         tmin_c: Number(forecast.daily.temperature_2m_min[idx] ?? 0)
       }));
+      const { yesterday, forecastDays } = splitPastAndForecastDays(allDays);
       points[areaId(area)] = {
         country_en: area.country_en,
         province_en: area.province_en,
         district_en: area.district_en,
         lat: area.lat,
         lon: area.lon,
-        ...riskFromForecast(days),
-        days
+        ...riskFromForecast(forecastDays),
+        days: forecastDays,
+        yesterday
       };
     });
   } catch (error) {
@@ -126,8 +144,8 @@ function readDailyLog() {
 const dailyLog = readDailyLog();
 dailyLog.generated_at = new Date().toISOString();
 for (const [id, point] of Object.entries(points)) {
-  const today = point.days?.[0];
-  if (!today) continue;
+  const yesterday = point.yesterday;
+  if (!yesterday) continue;
   if (!dailyLog.points[id]) {
     dailyLog.points[id] = {
       country_en: point.country_en,
@@ -139,16 +157,17 @@ for (const [id, point] of Object.entries(points)) {
     };
   }
   const records = dailyLog.points[id].records;
+  const observedRisk = riskFromObserved(yesterday);
   const snapshot = {
-    date: today.date,
-    rain_mm: today.rain_mm,
-    rain_probability_pct: today.rain_probability_pct,
-    tmax_c: today.tmax_c,
-    tmin_c: today.tmin_c,
-    risk: point.risk,
-    rain3d_mm: point.rain3d_mm,
-    max_temp_3d_c: point.max_temp_3d_c,
-    wet_days_3d: point.wet_days_3d
+    date: yesterday.date,
+    rain_mm: yesterday.rain_mm,
+    rain_probability_pct: yesterday.rain_probability_pct,
+    tmax_c: yesterday.tmax_c,
+    tmin_c: yesterday.tmin_c,
+    risk: observedRisk,
+    risk_level: observedRisk,
+    source: "Open-Meteo past_days=1",
+    recorded_at: dailyLog.generated_at
   };
   const existingIndex = records.findIndex((record) => record.date === snapshot.date);
   if (existingIndex >= 0) records[existingIndex] = snapshot;
