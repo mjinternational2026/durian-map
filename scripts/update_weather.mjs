@@ -4,30 +4,42 @@ const indexPath = "index.html";
 const outputPath = "weather-forecast.json";
 const dailyLogPath = "weather-daily-log.json";
 
-function extractJsonArray(source, variableName) {
+function extractArrayLiteral(source, variableName) {
   const marker = `const ${variableName} = `;
   const start = source.indexOf(marker);
   if (start < 0) throw new Error(`Cannot find ${variableName}`);
   const arrayStart = source.indexOf("[", start);
   let depth = 0;
   let inString = false;
+  let stringQuote = "";
   let escape = false;
   for (let i = arrayStart; i < source.length; i++) {
     const ch = source[i];
     if (inString) {
       if (escape) escape = false;
       else if (ch === "\\") escape = true;
-      else if (ch === '"') inString = false;
+      else if (ch === stringQuote) inString = false;
       continue;
     }
-    if (ch === '"') inString = true;
+    if (ch === '"' || ch === "'" || ch === "`") {
+      inString = true;
+      stringQuote = ch;
+    }
     else if (ch === "[") depth++;
     else if (ch === "]") {
       depth--;
-      if (depth === 0) return JSON.parse(source.slice(arrayStart, i + 1));
+      if (depth === 0) return source.slice(arrayStart, i + 1);
     }
   }
   throw new Error(`Cannot parse ${variableName}`);
+}
+
+function extractJsonArray(source, variableName) {
+  return JSON.parse(extractArrayLiteral(source, variableName));
+}
+
+function extractJsArray(source, variableName) {
+  return Function(`"use strict"; return (${extractArrayLiteral(source, variableName)});`)();
 }
 
 function areaId(area) {
@@ -86,11 +98,13 @@ async function fetchForecast(chunk) {
 
 const source = fs.readFileSync(indexPath, "utf8");
 const areas = extractJsonArray(source, "areas");
+const marketPoints = extractJsArray(source, "chinaMarkets");
+const weatherPoints = areas.concat(marketPoints);
 const points = {};
 const errors = [];
 
-for (let i = 0; i < areas.length; i += 40) {
-  const chunk = areas.slice(i, i + 40);
+for (let i = 0; i < weatherPoints.length; i += 40) {
+  const chunk = weatherPoints.slice(i, i + 40);
   try {
     const forecasts = await fetchForecast(chunk);
     forecasts.forEach((forecast, offset) => {
