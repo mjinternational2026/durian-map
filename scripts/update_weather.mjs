@@ -99,7 +99,8 @@ async function fetchForecast(chunk) {
 const source = fs.readFileSync(indexPath, "utf8");
 const areas = extractJsonArray(source, "areas");
 const marketPoints = extractJsArray(source, "chinaMarkets");
-const weatherPoints = areas.concat(marketPoints);
+const portPoints = extractJsArray(source, "portPoints");
+const weatherPoints = areas.concat(marketPoints, portPoints);
 const points = {};
 const errors = [];
 
