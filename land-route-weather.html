@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>泰国到中国陆运线路天气互动地图</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    :root{
+      --bg:#f6f8fb;
+      --panel:#ffffff;
+      --ink:#111827;
+      --muted:#64748b;
+      --line:#dbe3ee;
+      --low:#1f9d55;
+      --mid:#d97706;
+      --high:#dc2626;
+      --blue:#2563eb;
+      --teal:#0f766e;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--ink);
+      font-family:PingFang SC,Microsoft YaHei,Arial,sans-serif;
+    }
+    header{
+      padding:18px 22px 14px;
+      border-bottom:1px solid var(--line);
+      background:#fff;
+    }
+    h1{margin:0;font-size:24px;line-height:1.25}
+    .sub{margin:6px 0 0;color:var(--muted);font-size:14px}
+    .app{
+      display:grid;
+      grid-template-columns:minmax(0,1fr) 390px;
+      gap:14px;
+      padding:14px;
+      height:calc(100vh - 82px);
+      min-height:680px;
+    }
+    #map{
+      width:100%;
+      min-height:560px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      overflow:hidden;
+      background:#dbeafe;
+    }
+    aside{
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      min-width:0;
+      overflow:auto;
+    }
+    .panel{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:14px;
+    }
+    .panel h2{
+      margin:0 0 10px;
+      font-size:16px;
+      line-height:1.35;
+    }
+    .control-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:10px 0}
+    .date-label{font-weight:700;font-size:18px}
+    input[type="range"]{width:100%;accent-color:#2563eb}
+    input[type="datetime-local"],select{
+      width:100%;
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:9px 10px;
+      background:#fff;
+      color:var(--ink);
+      font:inherit;
+      min-height:40px;
+    }
+    .field{display:grid;gap:6px;margin:10px 0}
+    .field span{font-size:13px;color:var(--muted)}
+    .toggles{display:grid;grid-template-columns:1fr;gap:8px}
+    label.toggle{
+      display:flex;
+      align-items:center;
+      gap:9px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:10px;
+      cursor:pointer;
+      background:#fbfdff;
+    }
+    label.toggle span{font-size:13px;color:var(--muted)}
+    input[type="checkbox"]{width:18px;height:18px;accent-color:#2563eb}
+    .metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+    .metric{
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:10px;
+      min-width:0;
+    }
+    .metric span{display:block;color:var(--muted);font-size:12px}
+    .metric b{display:block;margin-top:4px;font-size:19px}
+    .legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:5px 9px;
+      font-size:12px;
+      background:#fff;
+    }
+    .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+    .risk-low{color:var(--low)}
+    .risk-mid{color:var(--mid)}
+    .risk-high{color:var(--high)}
+    .risk-list{display:grid;gap:8px}
+    .node{
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:10px;
+      background:#fff;
+    }
+    .node-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+    .node-name{font-weight:700;line-height:1.35}
+    .badge{
+      flex:0 0 auto;
+      border-radius:999px;
+      padding:3px 8px;
+      font-size:12px;
+      color:#fff;
+      white-space:nowrap;
+    }
+    .badge.low{background:var(--low)}
+    .badge.mid{background:var(--mid)}
+    .badge.high{background:var(--high)}
+    .node-meta{margin-top:8px;color:var(--muted);font-size:13px;line-height:1.55}
+    .eta-list{display:grid;gap:8px}
+    .eta-card{
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:10px;
+      background:#fff;
+    }
+    .eta-title{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;font-weight:700}
+    .eta-route{white-space:nowrap}
+    .eta-time{margin-top:8px;font-size:18px;font-weight:700;line-height:1.35}
+    .eta-meta{margin-top:6px;color:var(--muted);font-size:13px;line-height:1.6}
+    .advice{
+      margin:0;
+      padding-left:18px;
+      color:#334155;
+      line-height:1.7;
+      font-size:14px;
+    }
+    .leaflet-popup-content{font-family:PingFang SC,Microsoft YaHei,Arial,sans-serif;min-width:360px}
+    .popup-title{font-weight:700;font-size:15px;margin-bottom:6px}
+    .popup-line{font-size:13px;line-height:1.55;color:#334155}
+    .forecast-table{
+      width:100%;
+      border-collapse:collapse;
+      margin-top:8px;
+      font-size:12px;
+    }
+    .forecast-table th,
+    .forecast-table td{
+      border-bottom:1px solid #e5e7eb;
+      padding:5px 4px;
+      text-align:left;
+      white-space:nowrap;
+    }
+    .forecast-table th{color:#64748b;font-weight:700;background:#f8fafc}
+    .forecast-table tr.active{background:#eff6ff}
+    .forecast-risk{
+      display:inline-block;
+      min-width:18px;
+      border-radius:999px;
+      padding:2px 6px;
+      color:#fff;
+      font-size:11px;
+      text-align:center;
+    }
+    .route-label{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:4px 8px;
+      font-weight:700;
+      color:#111827;
+      box-shadow:0 4px 14px rgba(15,23,42,.12);
+    }
+    .source{font-size:12px;color:var(--muted);line-height:1.6}
+    @media (max-width: 980px){
+      .app{grid-template-columns:1fr;height:auto;min-height:0}
+      aside{overflow:visible}
+      #map{height:62vh;min-height:430px}
+    }
+    @media (max-width: 560px){
+      header{padding:14px}
+      h1{font-size:20px}
+      .app{padding:10px}
+      .metrics{grid-template-columns:1fr}
+      #map{height:58vh;min-height:360px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>泰国到中国陆运线路天气互动地图</h1>
+    <p class="sub">预测区间：2026-07-06 至 2026-07-12。起点为春蓬府 Lang Suan，线路采用 OSRM/OpenStreetMap 真实道路路由。</p>
+  </header>
+  <main class="app">
+    <div id="map" aria-label="泰国到中国陆运天气风险地图"></div>
+    <aside>
+      <section class="panel">
+        <h2>日期与线路</h2>
+        <div class="control-row">
+          <span>当前日期</span>
+          <span class="date-label" id="dateLabel">2026-07-06</span>
+        </div>
+        <input id="dateRange" type="range" min="0" max="6" value="0" step="1" aria-label="选择预报日期">
+        <div class="toggles">
+          <label class="toggle">
+            <input id="routeYunnan" type="checkbox" checked>
+            <div><b>云南线</b><br><span>Lang Suan-曼谷-呵叻-廊开-万象-老挝北部-磨憨/勐腊-昆明</span></div>
+          </label>
+          <label class="toggle">
+            <input id="routeGuangxi" type="checkbox" checked>
+            <div><b>广西线</b><br><span>Lang Suan-曼谷-呵叻-穆达汉/沙湾拿吉-河内-友谊关/凭祥-南宁</span></div>
+          </label>
+        </div>
+        <div class="legend">
+          <span class="chip"><i class="dot" style="background:var(--low)"></i>低风险</span>
+          <span class="chip"><i class="dot" style="background:var(--mid)"></i>中风险</span>
+          <span class="chip"><i class="dot" style="background:var(--high)"></i>高风险</span>
+        </div>
+      </section>
+      <section class="panel">
+        <h2>时效预测</h2>
+        <label class="field">
+          <span>发车时间</span>
+          <input id="departTime" type="datetime-local" value="2026-07-06T08:00">
+        </label>
+        <label class="field">
+          <span>驾驶方案</span>
+          <select id="drivePlan">
+            <option value="1.35">标准冷链车：含休息/限速</option>
+            <option value="1.18">双司机赶时效</option>
+            <option value="1.55">保守方案：更多休息/慢速</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>口岸状态</span>
+          <select id="borderMode">
+            <option value="normal">正常排队</option>
+            <option value="fast">顺畅通关</option>
+            <option value="slow">拥堵/查验偏多</option>
+          </select>
+        </label>
+        <div class="eta-list" id="etaList"></div>
+      </section>
+      <section class="panel">
+        <h2>当天总览</h2>
+        <div class="metrics">
+          <div class="metric"><span>最高风险</span><b id="maxRisk">高</b></div>
+          <div class="metric"><span>最大降雨</span><b id="maxRain">--</b></div>
+          <div class="metric"><span>高风险节点</span><b id="highCount">--</b></div>
+        </div>
+      </section>
+      <section class="panel">
+        <h2>风险节点</h2>
+        <div class="risk-list" id="riskList"></div>
+      </section>
+      <section class="panel">
+        <h2>运输建议</h2>
+        <ul class="advice" id="adviceList"></ul>
+      </section>
+      <section class="panel source">
+        天气数据：Open-Meteo Forecast API；道路线路：OSRM/OpenStreetMap 路由结果。天气更新时间：<span id="forecastUpdatedAt">--</span>。实际发车前建议再次刷新天气、道路和口岸通行信息。
+      </section>
+    </aside>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // WEATHER_DATA_START
+    const forecastUpdatedAt = "2026-07-06T18:17:14+07:00";
+    const dates = ["2026-07-06","2026-07-07","2026-07-08","2026-07-09","2026-07-10","2026-07-11","2026-07-12"];
+    const nodes = [
+      { id:"langsuan", name:"Lang Suan 春蓬", lat:9.95, lng:99.08, routes:["yunnan","guangxi"], sensitive:"果源出发/泰南主干道入口", rain:[0.7,0.2,0.6,1.4,0.0,4.1,21.6], pop:[43,22,52,52,39,80,96], tempMax:[33.8,33.6,32.1,32.0,33.6,31.3,26.4], tempMin:[25.0,24.4,25.1,25.1,25.0,24.7,24.0], weatherCode:[51,51,51,53,3,51,80], windMax:[10.0,17.6,18.0,21.2,24.1,21.1,13.7], base:0 },
+      { id:"bangkok", name:"曼谷", lat:13.75, lng:100.50, routes:["yunnan","guangxi"], sensitive:"泰国中部绕城/北上分流", rain:[12.9,0.2,0.8,0.1,1.0,1.1,2.4], pop:[100,57,71,51,55,49,88], tempMax:[31.0,32.0,33.2,33.4,33.3,31.8,32.1], tempMin:[26.0,26.3,25.1,25.9,26.6,26.2,26.5], weatherCode:[96,51,53,51,51,51,51], windMax:[13.1,11.6,11.9,14.0,14.0,17.6,16.0], base:0 },
+      { id:"korat", name:"呵叻", lat:14.97, lng:102.10, routes:["yunnan","guangxi"], sensitive:"泰国东北干线", rain:[10.4,1.1,0.2,0.1,1.8,2.1,7.2], pop:[81,49,29,65,31,43,81], tempMax:[32.4,31.6,33.3,32.1,32.3,33.9,29.0], tempMin:[24.8,25.6,26.7,26.3,26.2,26.8,26.9], weatherCode:[95,53,51,51,51,51,53], windMax:[24.3,19.4,20.4,24.5,27.4,28.0,22.6], base:0 },
+      { id:"nongkhai", name:"廊开口岸", lat:17.88, lng:102.74, routes:["yunnan"], sensitive:"口岸/桥梁通行", rain:[7.5,5.8,22.7,13.7,6.8,11.5,11.5], pop:[100,98,95,80,76,84,98], tempMax:[31.5,31.3,30.1,30.8,28.3,30.9,31.3], tempMin:[25.3,25.5,24.1,24.8,24.4,24.7,25.4], weatherCode:[95,95,96,95,53,95,95], windMax:[17.9,22.7,19.1,18.7,17.7,19.9,11.1], base:1 },
+      { id:"vientiane", name:"万象", lat:17.97, lng:102.60, routes:["yunnan"], sensitive:"老挝入境/城市段", rain:[4.2,4.8,18.7,14.5,3.9,12.0,10.9], pop:[100,85,90,71,64,82,100], tempMax:[31.7,30.8,29.5,30.7,28.6,31.3,30.9], tempMin:[25.5,25.2,24.4,24.9,24.3,25.3,25.2], weatherCode:[95,95,95,95,53,95,95], windMax:[14.6,18.9,21.9,15.7,18.2,16.9,10.2], base:1 },
+      { id:"luangprabang", name:"琅勃拉邦", lat:19.89, lng:102.14, routes:["yunnan"], sensitive:"老挝北部山路", rain:[9.4,14.7,31.4,24.3,33.7,30.2,29.0], pop:[100,98,99,93,96,94,95], tempMax:[29.5,29.7,30.1,27.0,27.5,31.7,30.2], tempMin:[25.1,24.5,24.3,24.3,24.1,23.8,23.9], weatherCode:[96,95,96,95,96,96,96], windMax:[16.7,15.2,13.5,11.0,12.2,12.0,5.0], base:2 },
+      { id:"mengla", name:"磨憨/勐腊", lat:21.48, lng:101.56, routes:["yunnan"], sensitive:"口岸+山地道路", rain:[22.9,10.4,18.3,40.5,19.0,17.4,24.3], pop:[100,100,100,100,99,98,97], tempMax:[29.3,29.1,26.3,25.6,28.7,29.9,30.0], tempMin:[22.9,23.0,23.1,22.8,22.4,23.0,22.3], weatherCode:[96,95,96,95,81,96,95], windMax:[15.5,15.7,7.1,9.0,11.9,11.4,4.5], base:2 },
+      { id:"kunming", name:"昆明", lat:25.04, lng:102.72, routes:["yunnan"], sensitive:"云南集散/高原路段", rain:[5.8,13.3,13.0,2.3,6.0,13.6,2.2], pop:[88,95,100,84,92,90,75], tempMax:[28.4,25.7,23.5,25.5,26.3,25.0,25.3], tempMin:[16.6,16.9,16.8,17.1,16.6,18.0,17.4], weatherCode:[95,95,95,53,55,95,51], windMax:[10.1,8.2,8.7,13.1,9.2,4.8,11.1], base:1 },
+      { id:"savannakhet", name:"沙湾拿吉", lat:16.55, lng:104.75, routes:["guangxi"], sensitive:"中老/越方向通道", rain:[29.4,36.1,17.0,7.1,0.9,30.3,9.0], pop:[100,96,88,85,75,78,96], tempMax:[27.8,28.7,30.3,31.8,31.1,31.3,31.6], tempMin:[24.0,24.4,23.9,24.2,25.8,24.2,24.7], weatherCode:[95,95,95,81,53,81,95], windMax:[21.7,21.6,24.4,21.7,24.0,22.1,17.8], base:1 },
+      { id:"hanoi", name:"河内", lat:21.03, lng:105.85, routes:["guangxi"], sensitive:"越南北部城市段", rain:[5.8,3.6,9.0,4.0,3.4,13.4,17.4], pop:[76,73,84,75,83,70,75], tempMax:[32.7,32.6,33.0,31.6,32.0,32.6,31.5], tempMin:[26.4,26.1,25.4,25.5,26.2,25.5,25.6], weatherCode:[95,96,96,95,53,95,95], windMax:[15.5,14.9,10.1,8.8,9.8,8.9,8.0], base:1 },
+      { id:"pingxiang", name:"友谊关/凭祥", lat:22.10, lng:106.75, routes:["guangxi"], sensitive:"中越口岸", rain:[6.8,6.7,13.3,11.4,13.8,6.0,8.4], pop:[90,100,94,96,98,90,79], tempMax:[29.4,30.9,31.6,31.1,32.0,31.0,31.8], tempMin:[24.1,23.9,23.3,23.3,23.1,23.0,23.5], weatherCode:[95,95,95,95,95,95,53], windMax:[17.7,10.2,10.3,8.4,9.1,9.5,9.3], base:1 },
+      { id:"nanning", name:"南宁", lat:22.82, lng:108.32, routes:["guangxi"], sensitive:"广西集散/城市配送", rain:[59.4,38.7,26.8,15.8,6.3,1.5,5.1], pop:[100,89,86,97,93,54,51], tempMax:[29.5,30.0,30.0,30.9,30.4,32.9,33.1], tempMin:[24.2,23.9,23.6,23.5,24.1,25.4,26.2], weatherCode:[96,95,96,96,95,51,95], windMax:[14.3,14.5,13.8,14.2,11.9,8.5,13.2], base:1 }
+    ];
+    // WEATHER_DATA_END
+    const routes = {
+      yunnan: {
+        name: "云南线",
+        color: "#2563eb",
+        distanceKm: 2480,
+        osrmHours: 30.3,
+        borderBaseHours: { fast: 8, normal: 14, slow: 26 },
+        nodes: ["langsuan","bangkok","korat","nongkhai","vientiane","luangprabang","mengla","kunming"],
+        labelPoint: [18.65, 102.15],
+        roadPoints: [
+          [9.950179,99.080013],[10.586045,99.113688],[12.0614,99.859025],[13.075854,99.948111],
+          [13.339695,99.828926],[13.74994,100.49999],[14.520093,100.915071],[14.969843,102.100008],
+          [15.262204,102.417559],[16.375978,102.810154],[17.161308,102.951748],[17.88003,102.740066],
+          [17.970058,102.600028],[18.577328,102.327197],[19.076403,102.430443],[19.132122,102.22152],
+          [19.524253,101.980904],[19.889721,102.139309],[20.293301,102.424202],[20.576291,102.411013],
+          [20.610295,102.000084],[20.999045,101.662249],[21.479735,101.560014],[21.913895,101.255534],
+          [22.099862,100.894825],[22.474852,101.085519],[22.824463,100.955941],[23.256197,101.155246],
+          [23.363232,101.580941],[24.210083,102.473504],[24.84485,102.817217],[25.039658,102.720141]
+        ]
+      },
+      guangxi: {
+        name: "广西线",
+        color: "#0f766e",
+        distanceKm: 2283,
+        osrmHours: 28.7,
+        borderBaseHours: { fast: 10, normal: 16, slow: 30 },
+        nodes: ["langsuan","bangkok","korat","savannakhet","hanoi","pingxiang","nanning"],
+        labelPoint: [16.70, 104.45],
+        roadPoints: [
+          [9.950179,99.080013],[10.586045,99.113688],[11.756946,99.766904],[12.0614,99.859025],
+          [13.075854,99.948111],[13.166398,99.841662],[13.339695,99.828926],[13.59373,100.360992],
+          [13.74994,100.49999],[13.954379,100.620492],[14.178579,100.619],[14.280583,100.81237],
+          [14.520093,100.915071],[14.637013,101.116383],[14.670596,101.45183],[14.850431,101.571683],
+          [14.969843,102.100008],[15.256521,102.414569],[16.041741,102.714281],[16.044911,103.123862],
+          [16.184844,103.302538],[16.405882,103.381711],[16.507804,104.332731],[16.617338,104.463354],
+          [16.543066,104.686718],[16.598122,104.775769],[16.550092,104.750008],[17.029928,104.996165],
+          [17.272846,104.986831],[17.415559,104.832638],[17.473806,105.169907],[18.195337,104.971046],
+          [18.446643,105.22642],[18.520133,105.585678],[18.64752,105.628548],[19.06303,105.582111],
+          [19.268342,105.716189],[19.739634,105.665058],[20.145746,105.837877],[20.266647,106.021739],
+          [21.030052,105.850078],[21.621864,106.560051],[21.862939,106.519366],[21.881011,106.655123],
+          [22.099771,106.74965],[22.153418,107.016812],[22.519527,107.669079],[22.629659,108.180718],
+          [22.819835,108.319645]
+        ]
+      }
+    };
+    const map = L.map("map", { scrollWheelZoom:true }).setView([17.4,103.2], 5);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 10,
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+    const nodeById = Object.fromEntries(nodes.map(node => [node.id, node]));
+    const markers = new Map();
+    const routeLines = new Map();
+    const routeLabels = new Map();
+    const dateRange = document.getElementById("dateRange");
+    const dateLabel = document.getElementById("dateLabel");
+    const routeYunnan = document.getElementById("routeYunnan");
+    const routeGuangxi = document.getElementById("routeGuangxi");
+    const riskList = document.getElementById("riskList");
+    const maxRisk = document.getElementById("maxRisk");
+    const maxRain = document.getElementById("maxRain");
+    const highCount = document.getElementById("highCount");
+    const adviceList = document.getElementById("adviceList");
+    const departTime = document.getElementById("departTime");
+    const drivePlan = document.getElementById("drivePlan");
+    const borderMode = document.getElementById("borderMode");
+    const etaList = document.getElementById("etaList");
+    const forecastUpdatedAtLabel = document.getElementById("forecastUpdatedAt");
+
+    function activeRoutes(){
+      const active = [];
+      if(routeYunnan.checked) active.push("yunnan");
+      if(routeGuangxi.checked) active.push("guangxi");
+      return active;
+    }
+    function visibleNodes(){
+      const active = activeRoutes();
+      return nodes.filter(node => node.routes.some(route => active.includes(route)));
+    }
+    function nodeRisk(node, day){
+      const rain = node.rain[day];
+      const pop = node.pop[day];
+      let score = node.base;
+      if(rain >= 30) score += 3;
+      else if(rain >= 15) score += 2;
+      else if(rain >= 6) score += 1;
+      if(pop >= 90) score += 1;
+      if(score >= 4) return "high";
+      if(score >= 2) return "mid";
+      return "low";
+    }
+    function riskMarker(node, day){
+      const risk = nodeRisk(node, day);
+      const rain = node.rain[day];
+      return L.divIcon({
+        className: "",
+        html: `<div style="width:${risk === "high" ? 24 : 20}px;height:${risk === "high" ? 24 : 20}px;border-radius:50%;background:${riskColor[risk]};border:3px solid #fff;box-shadow:0 3px 12px rgba(15,23,42,.35);display:grid;place-items:center;color:#fff;font-size:11px;font-weight:700">${Math.round(rain)}</div>`,
+        iconSize: [28, 28],
+        iconAnchor: [14, 14]
+      });
+    }
+    function popupHtml(node, day){
+      const risk = nodeRisk(node, day);
+      const rows = dates.map((date, index) => {
+        const dailyRisk = nodeRisk(node, index);
+        const mmdd = date.slice(5);
+        return `
+          <tr class="${index === day ? "active" : ""}">
+            <td>${mmdd}</td>
+            <td><span class="forecast-risk" style="background:${riskColor[dailyRisk]}">${riskText[dailyRisk]}</span></td>
+            <td>${node.rain[index].toFixed(1)}mm</td>
+            <td>${node.pop[index]}%</td>
+            <td>${node.tempMin[index].toFixed(0)}-${node.tempMax[index].toFixed(0)}C</td>
+          </tr>
+        `;
+      }).join("");
+      return `
+        <div class="popup-title">${node.name}</div>
+        <div class="popup-line">当前选中日风险：<b style="color:${riskColor[risk]}">${riskText[risk]}</b></div>
+        <div class="popup-line">降雨：${node.rain[day].toFixed(1)} mm，降雨概率：${node.pop[day]}%</div>
+        <div class="popup-line">温度：${node.tempMin[day].toFixed(1)}-${node.tempMax[day].toFixed(1)} C</div>
+        <div class="popup-line">敏感点：${node.sensitive}</div>
+        <table class="forecast-table">
+          <thead><tr><th>日期</th><th>风险</th><th>雨量</th><th>概率</th><th>温度</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      `;
+    }
+    function updateRoutes(day){
+      for(const [key, route] of Object.entries(routes)){
+        const show = activeRoutes().includes(key);
+        const points = route.roadPoints || route.nodes.map(id => [nodeById[id].lat, nodeById[id].lng]);
+        if(!routeLines.has(key)){
+          routeLines.set(key, L.polyline(points, {
+            color: route.color,
+            weight: 6,
+            opacity: .86,
+            lineJoin: "round"
+          }).addTo(map));
+          const middle = route.labelPoint || points[Math.floor(points.length / 2)];
+          routeLabels.set(key, L.marker(middle, {
+            icon: L.divIcon({ className:"", html:`<div class="route-label">${route.name}</div>`, iconSize:[88,28], iconAnchor:[44,14] }),
+            interactive: false
+          }).addTo(map));
+        }
+        const line = routeLines.get(key);
+        const label = routeLabels.get(key);
+        if(show){
+          line.addTo(map);
+          label.addTo(map);
+        }else{
+          map.removeLayer(line);
+          map.removeLayer(label);
+        }
+      }
+    }
+    function updateMarkers(day){
+      const visible = new Set(visibleNodes().map(node => node.id));
+      nodes.forEach(node => {
+        if(!markers.has(node.id)){
+          const marker = L.marker([node.lat, node.lng], { icon:riskMarker(node, day) }).addTo(map);
+          markers.set(node.id, marker);
+        }
+        const marker = markers.get(node.id);
+        marker.setIcon(riskMarker(node, day));
+        marker.bindPopup(popupHtml(node, day));
+        if(visible.has(node.id)){
+          marker.addTo(map);
+        }else{
+          map.removeLayer(marker);
+        }
+      });
+    }
+    function updatePanels(day){
+      const list = visibleNodes().map(node => ({
+        node,
+        risk: nodeRisk(node, day),
+        rain: node.rain[day],
+        pop: node.pop[day]
+      })).sort((a,b) => riskRank[b.risk] - riskRank[a.risk] || b.rain - a.rain);
+      const topRisk = list[0]?.risk || "low";
+      const topRain = list.reduce((max, item) => Math.max(max, item.rain), 0);
+      const high = list.filter(item => item.risk === "high").length;
+      maxRisk.textContent = riskText[topRisk];
+      maxRisk.className = topRisk === "high" ? "risk-high" : topRisk === "mid" ? "risk-mid" : "risk-low";
+      maxRain.textContent = `${topRain.toFixed(1)}mm`;
+      highCount.textContent = `${high}个`;
+      riskList.innerHTML = list.map(({node, risk, rain, pop}) => `
+        <div class="node">
+          <div class="node-top">
+            <div class="node-name">${node.name}</div>
+            <span class="badge ${risk}">${riskText[risk]}风险</span>
+          </div>
+          <div class="node-meta">降雨 ${rain.toFixed(1)}mm｜概率 ${pop}%｜${node.sensitive}</div>
+        </div>
+      `).join("");
+      const highNames = list.filter(item => item.risk === "high").map(item => item.node.name);
+      const advices = [];
+      if(highNames.length){
+        advices.push(`当天重点避让或预留时间：${highNames.join("、")}。`);
+      }else{
+        advices.push("当天没有高风险节点，但口岸和山路仍要按阵雨预案执行。");
+      }
+      if(list.some(item => item.node.id === "luangprabang" && item.risk === "high") || list.some(item => item.node.id === "mengla" && item.risk === "high")){
+        advices.push("云南线老挝北部到磨憨/勐腊段建议增加 0.5-1.5 天游动时间。");
+      }
+      if(list.some(item => ["savannakhet","nanning"].includes(item.node.id) && item.risk === "high")){
+        advices.push("广西线前半程或南宁段雨量偏大，建议避开夜间强降雨窗口。");
+      }
+      advices.push("冷链车出发前复查制冷机组、排水、油量和温控记录设备。");
+      adviceList.innerHTML = advices.map(text => `<li>${text}</li>`).join("");
+    }
+    function routeRiskStats(route, day){
+      const routeNodes = route.nodes.map(id => nodeById[id]);
+      return routeNodes.reduce((stats, node) => {
+        const risk = nodeRisk(node, day);
+        stats.maxRain = Math.max(stats.maxRain, node.rain[day]);
+        stats.high += risk === "high" ? 1 : 0;
+        stats.mid += risk === "mid" ? 1 : 0;
+        return stats;
+      }, { high:0, mid:0, maxRain:0 });
+    }
+    function weatherBufferHours(stats){
+      return stats.high * 7 + stats.mid * 2 + (stats.maxRain >= 40 ? 5 : 0);
+    }
+    function formatEta(date){
+      return new Intl.DateTimeFormat("zh-CN", {
+        month:"2-digit",
+        day:"2-digit",
+        hour:"2-digit",
+        minute:"2-digit",
+        hour12:false
+      }).format(date);
+    }
+    function updateEta(day){
+      const depart = new Date(departTime.value || "2026-07-06T08:00");
+      const factor = Number(drivePlan.value);
+      const mode = borderMode.value;
+      etaList.innerHTML = activeRoutes().map(key => {
+        const route = routes[key];
+        const stats = routeRiskStats(route, day);
+        const driving = route.osrmHours * factor;
+        const border = route.borderBaseHours[mode];
+        const weather = weatherBufferHours(stats);
+        const minHours = driving + border + Math.max(0, weather - 6);
+        const maxHours = driving + border + weather + 8;
+        const earliest = new Date(depart.getTime() + minHours * 3600000);
+        const latest = new Date(depart.getTime() + maxHours * 3600000);
+        const highText = stats.high ? `${stats.high}个高风险节点` : "无高风险节点";
+        return `
+          <div class="eta-card">
+            <div class="eta-title">
+              <span>${route.name}</span>
+              <span class="eta-route">${route.distanceKm}km</span>
+            </div>
+            <div class="eta-time">${formatEta(earliest)} - ${formatEta(latest)}</div>
+            <div class="eta-meta">驾驶约 ${driving.toFixed(1)}h｜口岸 ${border}h｜天气缓冲 ${weather}h｜${highText}</div>
+          </div>
+        `;
+      }).join("");
+    }
+    function fitActiveBounds(){
+      const points = visibleNodes().map(node => [node.lat, node.lng]);
+      if(points.length) map.fitBounds(points, { padding:[32,32], maxZoom:6 });
+    }
+    function updateAll(shouldFit = false){
+      const day = Number(dateRange.value);
+      dateLabel.textContent = dates[day];
+      forecastUpdatedAtLabel.textContent = forecastUpdatedAt.replace("T", " ").slice(0, 16);
+      updateRoutes(day);
+      updateMarkers(day);
+      updatePanels(day);
+      updateEta(day);
+      if(shouldFit) fitActiveBounds();
+    }
+    dateRange.addEventListener("input", () => updateAll(false));
+    routeYunnan.addEventListener("change", () => updateAll(true));
+    routeGuangxi.addEventListener("change", () => updateAll(true));
+    departTime.addEventListener("input", () => updateAll(false));
+    drivePlan.addEventListener("change", () => updateAll(false));
+    borderMode.addEventListener("change", () => updateAll(false));
+    updateAll(true);
+  </script>
+</body>
+</html>
