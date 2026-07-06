@@ -2,6 +2,7 @@
 import datetime as dt
 import json
 import re
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -146,8 +147,20 @@ def fetch_point(point):
         "forecast_days": FORECAST_DAYS,
     }
     url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(params)
-    with urllib.request.urlopen(url, timeout=30) as response:
-        payload = json.loads(response.read().decode("utf-8"))
+    last_error = None
+    for attempt in range(1, 5):
+        try:
+            request = urllib.request.Request(url, headers={"User-Agent": "durian-route-weather/1.0"})
+            with urllib.request.urlopen(request, timeout=60) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+            break
+        except Exception as exc:
+            last_error = exc
+            if attempt == 4:
+                raise
+            time.sleep(5 * attempt)
+    else:
+        raise RuntimeError(f"failed to fetch {point['id']}: {last_error}")
     daily = payload["daily"]
     return {
         **point,
