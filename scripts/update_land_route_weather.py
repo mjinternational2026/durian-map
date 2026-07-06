@@ -208,6 +208,8 @@ def main():
     )
 
     for html_path in HTML_PATHS:
+        if not html_path.exists():
+            continue
         html = html_path.read_text(encoding="utf-8")
         html = re.sub(
             r"    // WEATHER_DATA_START[\s\S]*?    // WEATHER_DATA_END",
