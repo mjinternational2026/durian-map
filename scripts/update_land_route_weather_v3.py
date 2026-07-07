@@ -256,6 +256,30 @@ def main():
             html,
             count=1,
         )
+        html = re.sub(
+            r"预测区间：\d{4}-\d{2}-\d{2} 至 \d{4}-\d{2}-\d{2}",
+            f"预测区间：{dates[0]} 至 {dates[-1]}",
+            html,
+            count=1,
+        )
+        html = re.sub(
+            r'(<span class="date-label" id="dateLabel">)\d{4}-\d{2}-\d{2}(</span>)',
+            rf"\g<1>{dates[0]}\2",
+            html,
+            count=1,
+        )
+        html = re.sub(
+            r'(<input id="departTime" type="datetime-local" value=")\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(">)',
+            rf"\g<1>{dates[0]}T08:00\2",
+            html,
+            count=1,
+        )
+        html = re.sub(
+            r'new Date\(departTime\.value \|\| "\d{4}-\d{2}-\d{2}T\d{2}:\d{2}"\)',
+            f'new Date(departTime.value || "{dates[0]}T08:00")',
+            html,
+            count=1,
+        )
         html_path.write_text(html, encoding="utf-8")
 
     SNAPSHOT_PATH.parent.mkdir(parents=True, exist_ok=True)
