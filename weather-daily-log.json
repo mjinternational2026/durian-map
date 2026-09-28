@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T01:40:52.756Z",
+  "generated_at": "2026-09-28T01:55:36.490Z",
   "source": "Daily snapshots accumulated from Open-Meteo forecast runs",
   "points": {
     "thailand-yala-betong": {
@@ -954,6 +954,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.3,
+          "rain_probability_pct": 68,
+          "tmax_c": 30.3,
+          "tmin_c": 23.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -1909,6 +1920,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.6,
+          "rain_probability_pct": 87,
+          "tmax_c": 32.9,
+          "tmin_c": 24.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -2864,6 +2886,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4.1,
+          "rain_probability_pct": 87,
+          "tmax_c": 30.7,
+          "tmin_c": 22.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -3819,6 +3852,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.3,
+          "rain_probability_pct": 88,
+          "tmax_c": 30.6,
+          "tmin_c": 24,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -4774,6 +4818,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4,
+          "rain_probability_pct": 84,
+          "tmax_c": 29.7,
+          "tmin_c": 23.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -5729,6 +5784,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.6,
+          "rain_probability_pct": 92,
+          "tmax_c": 29.7,
+          "tmin_c": 23.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -6684,6 +6750,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.5,
+          "rain_probability_pct": 92,
+          "tmax_c": 29.8,
+          "tmin_c": 23.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -7639,6 +7716,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 47.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.7,
+          "tmin_c": 22.7,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -8594,6 +8682,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 33,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.9,
+          "tmin_c": 23.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -9549,6 +9648,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 40,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.7,
+          "tmin_c": 22.7,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -10504,6 +10614,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 53.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.8,
+          "tmin_c": 23.7,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -11459,6 +11580,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 42.3,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.2,
+          "tmin_c": 22.9,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -12414,6 +12546,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 60.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.3,
+          "tmin_c": 23.7,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -13369,6 +13512,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 37.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 24.4,
+          "tmin_c": 22,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -14324,6 +14478,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 17.1,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.6,
+          "tmin_c": 22.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -15279,6 +15444,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.3,
+          "rain_probability_pct": 96,
+          "tmax_c": 29.1,
+          "tmin_c": 24.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -16234,6 +16410,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 8.1,
+          "rain_probability_pct": 99,
+          "tmax_c": 26.7,
+          "tmin_c": 23.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -17189,6 +17376,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 14.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 27.1,
+          "tmin_c": 23.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -18144,6 +18342,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 17.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.8,
+          "tmin_c": 23.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -19099,6 +19308,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 17.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.6,
+          "tmin_c": 23.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -20054,6 +20274,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.4,
+          "rain_probability_pct": 92,
+          "tmax_c": 28.7,
+          "tmin_c": 24,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -21009,6 +21240,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 8.3,
+          "rain_probability_pct": 92,
+          "tmax_c": 29.3,
+          "tmin_c": 23.3,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -21964,6 +22206,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.8,
+          "rain_probability_pct": 82,
+          "tmax_c": 28.7,
+          "tmin_c": 24.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -22919,6 +23172,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4.1,
+          "rain_probability_pct": 92,
+          "tmax_c": 29,
+          "tmin_c": 23.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -23874,6 +24138,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.8,
+          "rain_probability_pct": 97,
+          "tmax_c": 29.1,
+          "tmin_c": 23.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -24829,6 +25104,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.6,
+          "rain_probability_pct": 88,
+          "tmax_c": 30.6,
+          "tmin_c": 25,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -25784,6 +26070,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 69.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 26,
+          "tmin_c": 24.1,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -26739,6 +27036,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 56.5,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.1,
+          "tmin_c": 23.4,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -27694,6 +28002,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 66,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.6,
+          "tmin_c": 24,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -28649,6 +28968,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 45.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 24.7,
+          "tmin_c": 22.8,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -29604,6 +29934,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 73.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.3,
+          "tmin_c": 24.5,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -30559,6 +30900,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 30.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.7,
+          "tmin_c": 23.3,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -31514,6 +31866,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 30.9,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.8,
+          "tmin_c": 23.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -32469,6 +32832,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 33.9,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.2,
+          "tmin_c": 23.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -33424,6 +33798,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 34.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.2,
+          "tmin_c": 23.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -34379,6 +34764,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 58.2,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.7,
+          "tmin_c": 23.6,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -35334,6 +35730,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 10.2,
+          "rain_probability_pct": 96,
+          "tmax_c": 29.9,
+          "tmin_c": 24,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -36289,6 +36696,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.2,
+          "rain_probability_pct": 97,
+          "tmax_c": 30.9,
+          "tmin_c": 24.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -37244,6 +37662,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.7,
+          "rain_probability_pct": 76,
+          "tmax_c": 29.9,
+          "tmin_c": 24.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -38199,6 +38628,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.6,
+          "rain_probability_pct": 97,
+          "tmax_c": 30.5,
+          "tmin_c": 24.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -39143,6 +39583,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.1,
+          "rain_probability_pct": 75,
+          "tmax_c": 30.9,
+          "tmin_c": 25,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -40087,6 +40538,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.9,
+          "rain_probability_pct": 80,
+          "tmax_c": 31.3,
+          "tmin_c": 25.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -41031,6 +41493,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.5,
+          "rain_probability_pct": 98,
+          "tmax_c": 31.8,
+          "tmin_c": 24.8,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -41975,6 +42448,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 11.3,
+          "rain_probability_pct": 100,
+          "tmax_c": 32,
+          "tmin_c": 24.7,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -42919,6 +43403,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.2,
+          "rain_probability_pct": 98,
+          "tmax_c": 32.1,
+          "tmin_c": 25.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -43863,6 +44358,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7,
+          "rain_probability_pct": 100,
+          "tmax_c": 32.8,
+          "tmin_c": 24.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -44807,6 +45313,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 32,
+          "tmin_c": 25,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -45751,6 +46268,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.6,
+          "rain_probability_pct": 92,
+          "tmax_c": 30,
+          "tmin_c": 23.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -46695,6 +47223,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.3,
+          "rain_probability_pct": 99,
+          "tmax_c": 30.3,
+          "tmin_c": 22.8,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -47639,6 +48178,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 13.1,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.5,
+          "tmin_c": 23.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -48583,6 +49133,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 13.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.4,
+          "tmin_c": 23.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -49527,6 +50088,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 45.5,
+          "rain_probability_pct": 100,
+          "tmax_c": 30.3,
+          "tmin_c": 22.1,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -50471,6 +51043,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 15.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 30,
+          "tmin_c": 22.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -51415,6 +51998,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 31.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 30.3,
+          "tmin_c": 22.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -52359,6 +52953,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 26.9,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.2,
+          "tmin_c": 21,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -53303,6 +53908,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 42.3,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.2,
+          "tmin_c": 21.3,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -54247,6 +54863,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 26.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.8,
+          "tmin_c": 20.8,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -55191,6 +55818,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 31,
+          "tmin_c": 22.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -56135,6 +56773,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4.3,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.6,
+          "tmin_c": 21.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -57079,6 +57728,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 17.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.4,
+          "tmin_c": 23.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -58023,6 +58683,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.5,
+          "tmin_c": 20.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -58967,6 +59638,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.9,
+          "tmin_c": 19.7,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -59911,6 +60593,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 32.3,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.2,
+          "tmin_c": 23.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -60855,6 +61548,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.5,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.1,
+          "tmin_c": 20.7,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -61799,6 +62503,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 9.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.2,
+          "tmin_c": 21.7,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -62743,6 +63458,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 11.2,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.1,
+          "tmin_c": 22.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -63687,6 +64413,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 27,
+          "tmin_c": 19,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -64631,6 +65368,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 17.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.5,
+          "tmin_c": 22.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -65575,6 +66323,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.1,
+          "rain_probability_pct": 100,
+          "tmax_c": 27.6,
+          "tmin_c": 19.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -66519,6 +67278,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.2,
+          "rain_probability_pct": 98,
+          "tmax_c": 31.6,
+          "tmin_c": 25.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -67463,6 +68233,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.9,
+          "rain_probability_pct": 98,
+          "tmax_c": 32,
+          "tmin_c": 25.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -68407,6 +69188,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.5,
+          "rain_probability_pct": 98,
+          "tmax_c": 32.2,
+          "tmin_c": 25.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -69351,6 +70143,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.4,
+          "rain_probability_pct": 98,
+          "tmax_c": 32.3,
+          "tmin_c": 25.3,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -70295,6 +71098,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4.3,
+          "rain_probability_pct": 90,
+          "tmax_c": 31.6,
+          "tmin_c": 25,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -71239,6 +72053,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 8.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.7,
+          "tmin_c": 24.8,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -72183,6 +73008,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 9.3,
+          "rain_probability_pct": 100,
+          "tmax_c": 32.2,
+          "tmin_c": 24.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -73127,6 +73963,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 9.3,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.7,
+          "tmin_c": 24.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -74071,6 +74918,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 10.3,
+          "rain_probability_pct": 100,
+          "tmax_c": 32.5,
+          "tmin_c": 24.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -75015,6 +75873,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 12.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.7,
+          "tmin_c": 24.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -75959,6 +76828,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 19.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 30,
+          "tmin_c": 24.3,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -76914,6 +77794,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.6,
+          "rain_probability_pct": 98,
+          "tmax_c": 29.8,
+          "tmin_c": 23.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -77869,6 +78760,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 19.5,
+          "rain_probability_pct": 100,
+          "tmax_c": 30.4,
+          "tmin_c": 23.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -78824,6 +79726,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 22.6,
+          "rain_probability_pct": 92,
+          "tmax_c": 30.2,
+          "tmin_c": 23.3,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -79779,6 +80692,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 17.7,
+          "rain_probability_pct": 99,
+          "tmax_c": 30.4,
+          "tmin_c": 23.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -80734,6 +81658,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 14.9,
+          "rain_probability_pct": 97,
+          "tmax_c": 30.7,
+          "tmin_c": 24.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -81689,6 +82624,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 10.2,
+          "rain_probability_pct": 94,
+          "tmax_c": 29.1,
+          "tmin_c": 23.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -82644,6 +83590,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 9,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.8,
+          "tmin_c": 23,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -83599,6 +84556,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 30,
+          "tmin_c": 23.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -84554,6 +85522,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 13.6,
+          "rain_probability_pct": 92,
+          "tmax_c": 30.3,
+          "tmin_c": 23.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -85509,6 +86488,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 19.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.8,
+          "tmin_c": 23.8,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -86464,6 +87454,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 12.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 27.7,
+          "tmin_c": 24,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -87419,6 +88420,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.9,
+          "rain_probability_pct": 82,
+          "tmax_c": 31.9,
+          "tmin_c": 24.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -88374,6 +89386,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3,
+          "rain_probability_pct": 76,
+          "tmax_c": 33.8,
+          "tmin_c": 25.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -89329,6 +90352,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4.7,
+          "rain_probability_pct": 76,
+          "tmax_c": 33.6,
+          "tmin_c": 25.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -90284,6 +91318,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.9,
+          "rain_probability_pct": 90,
+          "tmax_c": 32.3,
+          "tmin_c": 23.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -91239,6 +92284,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4.8,
+          "rain_probability_pct": 92,
+          "tmax_c": 32.1,
+          "tmin_c": 23.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -92194,6 +93250,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.5,
+          "rain_probability_pct": 77,
+          "tmax_c": 33.9,
+          "tmin_c": 23.8,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -93149,6 +94216,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.5,
+          "rain_probability_pct": 75,
+          "tmax_c": 27.6,
+          "tmin_c": 20.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -94104,6 +95182,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.9,
+          "rain_probability_pct": 59,
+          "tmax_c": 31.3,
+          "tmin_c": 25.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -95059,6 +96148,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 18.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 29,
+          "tmin_c": 23.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -96014,6 +97114,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 17.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 29,
+          "tmin_c": 23.8,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -96969,6 +98080,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 21.1,
+          "rain_probability_pct": 100,
+          "tmax_c": 27.5,
+          "tmin_c": 23.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -97924,6 +99046,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 31.5,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.5,
+          "tmin_c": 23.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -98879,6 +100012,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 15.9,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.7,
+          "tmin_c": 24.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -99834,6 +100978,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 26.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.6,
+          "tmin_c": 24.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -100789,6 +101944,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4,
+          "rain_probability_pct": 80,
+          "tmax_c": 31.4,
+          "tmin_c": 24.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -101744,6 +102910,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.5,
+          "rain_probability_pct": 75,
+          "tmax_c": 30.5,
+          "tmin_c": 23.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -102699,6 +103876,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.5,
+          "rain_probability_pct": 84,
+          "tmax_c": 32.3,
+          "tmin_c": 23.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -103654,6 +104842,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.7,
+          "rain_probability_pct": 87,
+          "tmax_c": 29.8,
+          "tmin_c": 24.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -104609,6 +105808,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 32.9,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.5,
+          "tmin_c": 22.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -105564,6 +106774,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 12.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.2,
+          "tmin_c": 23.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -106519,6 +107740,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4.6,
+          "rain_probability_pct": 92,
+          "tmax_c": 31.5,
+          "tmin_c": 24,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -107474,6 +108706,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7,
+          "rain_probability_pct": 95,
+          "tmax_c": 31.5,
+          "tmin_c": 23.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -108429,6 +109672,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.4,
+          "tmin_c": 25,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -109384,6 +110638,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.4,
+          "tmin_c": 25,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -110339,6 +111604,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.3,
+          "rain_probability_pct": 87,
+          "tmax_c": 30.9,
+          "tmin_c": 24.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -111294,6 +112570,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.7,
+          "rain_probability_pct": 84,
+          "tmax_c": 32.3,
+          "tmin_c": 24.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -112249,6 +113536,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.6,
+          "rain_probability_pct": 84,
+          "tmax_c": 31.9,
+          "tmin_c": 24.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -113204,6 +114502,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 22.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 24.8,
+          "tmin_c": 20.3,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -114159,6 +115468,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.9,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.3,
+          "tmin_c": 23.3,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -115125,6 +116445,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.1,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.2,
+          "tmin_c": 24.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -116091,6 +117422,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.2,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.8,
+          "tmin_c": 25,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -117057,6 +118399,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 8.2,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.9,
+          "tmin_c": 23.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -118023,6 +119376,17 @@
           "risk_level": "中高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 32.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 24.6,
+          "tmin_c": 21.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -118989,6 +120353,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 19.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 29,
+          "tmin_c": 24.3,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -119955,6 +121330,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 22.5,
+          "rain_probability_pct": 100,
+          "tmax_c": 27.7,
+          "tmin_c": 22.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -120921,6 +122307,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0,
+          "rain_probability_pct": 70,
+          "tmax_c": 34.7,
+          "tmin_c": 21.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -121887,6 +123284,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.4,
+          "rain_probability_pct": 71,
+          "tmax_c": 25.4,
+          "tmin_c": 16.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -122853,6 +124261,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 31.5,
+          "tmin_c": 22.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -123819,6 +125238,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0,
+          "rain_probability_pct": 33,
+          "tmax_c": 33.9,
+          "tmin_c": 20.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -124785,6 +126215,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0,
+          "rain_probability_pct": 12,
+          "tmax_c": 33.4,
+          "tmin_c": 22.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -125751,6 +127192,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.3,
+          "rain_probability_pct": 88,
+          "tmax_c": 30.2,
+          "tmin_c": 20.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -126717,6 +128169,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.1,
+          "rain_probability_pct": 100,
+          "tmax_c": 31.6,
+          "tmin_c": 24.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -127683,6 +129146,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 30.3,
+          "tmin_c": 23.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -128649,6 +130123,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.9,
+          "rain_probability_pct": 100,
+          "tmax_c": 27.2,
+          "tmin_c": 22.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -129615,6 +131100,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 62.1,
+          "rain_probability_pct": 93,
+          "tmax_c": 27.3,
+          "tmin_c": 22.5,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -130581,6 +132077,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.6,
+          "rain_probability_pct": 86,
+          "tmax_c": 21.9,
+          "tmin_c": 17.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -131547,6 +133054,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.2,
+          "rain_probability_pct": 23,
+          "tmax_c": 30.5,
+          "tmin_c": 19.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -132513,6 +134031,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.1,
+          "rain_probability_pct": 37,
+          "tmax_c": 33.4,
+          "tmin_c": 24.8,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -133479,6 +135008,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0,
+          "rain_probability_pct": 78,
+          "tmax_c": 29,
+          "tmin_c": 22.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -134445,6 +135985,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.2,
+          "rain_probability_pct": 18,
+          "tmax_c": 31.8,
+          "tmin_c": 24.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -135411,6 +136962,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.1,
+          "rain_probability_pct": 97,
+          "tmax_c": 32.7,
+          "tmin_c": 22.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -136377,6 +137939,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 13,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.2,
+          "tmin_c": 17.8,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -137343,6 +138916,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.4,
+          "rain_probability_pct": 99,
+          "tmax_c": 23.7,
+          "tmin_c": 19.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -138309,6 +139893,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 18,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.9,
+          "tmin_c": 19.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -139275,6 +140870,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.2,
+          "rain_probability_pct": 63,
+          "tmax_c": 33.9,
+          "tmin_c": 25.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -140241,6 +141847,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 10.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.9,
+          "tmin_c": 23.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -141207,6 +142824,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 17,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.5,
+          "tmin_c": 23.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -142173,6 +143801,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 17.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 30.6,
+          "tmin_c": 24.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -143139,6 +144778,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 27.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.6,
+          "tmin_c": 24,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -144105,6 +145755,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 26.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 27.3,
+          "tmin_c": 23.7,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -145071,6 +146732,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.5,
+          "rain_probability_pct": 86,
+          "tmax_c": 21.7,
+          "tmin_c": 17.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -146037,6 +147709,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 10,
+          "rain_probability_pct": 92,
+          "tmax_c": 30,
+          "tmin_c": 23,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -147003,6 +148686,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.5,
+          "rain_probability_pct": 86,
+          "tmax_c": 27.5,
+          "tmin_c": 22.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -147969,6 +149663,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.9,
+          "tmin_c": 19.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -148935,6 +150640,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.8,
+          "rain_probability_pct": 84,
+          "tmax_c": 27.8,
+          "tmin_c": 22.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -149901,6 +151617,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.5,
+          "rain_probability_pct": 98,
+          "tmax_c": 31.4,
+          "tmin_c": 23.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -150867,6 +152594,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.5,
+          "rain_probability_pct": 98,
+          "tmax_c": 31.4,
+          "tmin_c": 23.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -151833,6 +153571,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.8,
+          "rain_probability_pct": 98,
+          "tmax_c": 32.8,
+          "tmin_c": 23.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -152799,6 +154548,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 29.7,
+          "tmin_c": 21.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -153765,6 +155525,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1,
+          "rain_probability_pct": 100,
+          "tmax_c": 30.3,
+          "tmin_c": 21.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -154731,6 +156502,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.3,
+          "rain_probability_pct": 100,
+          "tmax_c": 32.3,
+          "tmin_c": 23.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -155697,6 +157479,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.7,
+          "rain_probability_pct": 16,
+          "tmax_c": 31.9,
+          "tmin_c": 24.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -156663,6 +158456,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 28.7,
+          "tmin_c": 20.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -157629,6 +159433,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.5,
+          "rain_probability_pct": 99,
+          "tmax_c": 32.8,
+          "tmin_c": 24.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -158595,6 +160410,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.6,
+          "rain_probability_pct": 79,
+          "tmax_c": 32.3,
+          "tmin_c": 23.8,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -159561,6 +161387,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.3,
+          "rain_probability_pct": 79,
+          "tmax_c": 32.4,
+          "tmin_c": 24.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -160527,6 +162364,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.8,
+          "rain_probability_pct": 79,
+          "tmax_c": 32,
+          "tmin_c": 24.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -161493,6 +163341,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.1,
+          "rain_probability_pct": 39,
+          "tmax_c": 30.7,
+          "tmin_c": 24.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -162459,6 +164318,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.9,
+          "rain_probability_pct": 39,
+          "tmax_c": 30.8,
+          "tmin_c": 23.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -163425,6 +165295,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.1,
+          "rain_probability_pct": 39,
+          "tmax_c": 30.8,
+          "tmin_c": 24.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -164391,6 +166272,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.9,
+          "rain_probability_pct": 39,
+          "tmax_c": 31.5,
+          "tmin_c": 24.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -165357,6 +167249,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.1,
+          "rain_probability_pct": 43,
+          "tmax_c": 29,
+          "tmin_c": 22,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -166323,6 +168226,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.4,
+          "rain_probability_pct": 43,
+          "tmax_c": 30.9,
+          "tmin_c": 23.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -167289,6 +169203,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.2,
+          "rain_probability_pct": 84,
+          "tmax_c": 30.6,
+          "tmin_c": 24.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -168255,6 +170180,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.5,
+          "rain_probability_pct": 98,
+          "tmax_c": 25.2,
+          "tmin_c": 17.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -169221,6 +171157,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.8,
+          "rain_probability_pct": 43,
+          "tmax_c": 31.8,
+          "tmin_c": 23.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -170187,6 +172134,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.5,
+          "rain_probability_pct": 43,
+          "tmax_c": 32.1,
+          "tmin_c": 23.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -171153,6 +173111,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.8,
+          "rain_probability_pct": 95,
+          "tmax_c": 32.6,
+          "tmin_c": 24.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -172119,6 +174088,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 33,
+          "tmin_c": 24.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -173085,6 +175065,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4,
+          "rain_probability_pct": 100,
+          "tmax_c": 32.6,
+          "tmin_c": 23.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -174051,6 +176042,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6,
+          "rain_probability_pct": 95,
+          "tmax_c": 32.4,
+          "tmin_c": 24.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -175017,6 +177019,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 8.9,
+          "rain_probability_pct": 92,
+          "tmax_c": 32.7,
+          "tmin_c": 25.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -175983,6 +177996,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 8.2,
+          "rain_probability_pct": 100,
+          "tmax_c": 32.8,
+          "tmin_c": 25.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -176949,6 +178973,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 6.6,
+          "rain_probability_pct": 98,
+          "tmax_c": 33.1,
+          "tmin_c": 24.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -177915,6 +179950,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 10.7,
+          "rain_probability_pct": 92,
+          "tmax_c": 30.4,
+          "tmin_c": 24.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -178881,6 +180927,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 20.2,
+          "rain_probability_pct": 97,
+          "tmax_c": 29.4,
+          "tmin_c": 23.8,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -179847,6 +181904,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 4.6,
+          "rain_probability_pct": 89,
+          "tmax_c": 33.5,
+          "tmin_c": 25.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -180813,6 +182881,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.4,
+          "rain_probability_pct": 92,
+          "tmax_c": 31.2,
+          "tmin_c": 25,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -181779,6 +183858,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 14.6,
+          "rain_probability_pct": 96,
+          "tmax_c": 30.5,
+          "tmin_c": 24.3,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -182745,6 +184835,17 @@
           "risk_level": "高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 35.8,
+          "rain_probability_pct": 100,
+          "tmax_c": 27.8,
+          "tmin_c": 24.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -183711,6 +185812,17 @@
           "risk_level": "高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 161.2,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.7,
+          "tmin_c": 22.6,
+          "risk": "高",
+          "risk_level": "高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -184677,6 +186789,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 26.5,
+          "rain_probability_pct": 100,
+          "tmax_c": 26.3,
+          "tmin_c": 24.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -185643,6 +187766,17 @@
           "risk_level": "高",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 118.1,
+          "rain_probability_pct": 100,
+          "tmax_c": 25.1,
+          "tmin_c": 23.7,
+          "risk": "高",
+          "risk_level": "高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -186609,6 +188743,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.6,
+          "rain_probability_pct": 88,
+          "tmax_c": 30.7,
+          "tmin_c": 24,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -187575,6 +189720,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 8.9,
+          "rain_probability_pct": 86,
+          "tmax_c": 22.7,
+          "tmin_c": 17.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -188541,6 +190697,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.2,
+          "rain_probability_pct": 95,
+          "tmax_c": 28.3,
+          "tmin_c": 20.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -189507,6 +191674,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 11.8,
+          "rain_probability_pct": 94,
+          "tmax_c": 31.1,
+          "tmin_c": 24.2,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -190451,6 +192629,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.1,
+          "rain_probability_pct": 8,
+          "tmax_c": 35.7,
+          "tmin_c": 25.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -191395,6 +193584,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0,
+          "rain_probability_pct": 10,
+          "tmax_c": 35,
+          "tmin_c": 25.7,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -192328,6 +194528,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 7.3,
+          "rain_probability_pct": 98,
+          "tmax_c": 29,
+          "tmin_c": 23.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -193261,6 +195472,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5.3,
+          "rain_probability_pct": 98,
+          "tmax_c": 29.8,
+          "tmin_c": 24.4,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -194194,6 +196416,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.4,
+          "rain_probability_pct": 86,
+          "tmax_c": 26.8,
+          "tmin_c": 17.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -195127,6 +197360,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.6,
+          "rain_probability_pct": 41,
+          "tmax_c": 26.1,
+          "tmin_c": 17.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -196060,6 +198304,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0,
+          "rain_probability_pct": 12,
+          "tmax_c": 26.6,
+          "tmin_c": 22.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -196993,6 +199248,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.5,
+          "rain_probability_pct": 31,
+          "tmax_c": 27.6,
+          "tmin_c": 22.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -197926,6 +200192,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.6,
+          "rain_probability_pct": 99,
+          "tmax_c": 30,
+          "tmin_c": 23.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -198859,6 +201136,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.6,
+          "rain_probability_pct": 78,
+          "tmax_c": 23.4,
+          "tmin_c": 18,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -199792,6 +202080,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.1,
+          "rain_probability_pct": 91,
+          "tmax_c": 34.3,
+          "tmin_c": 24.9,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -200725,6 +203024,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 26.7,
+          "tmin_c": 17.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -201658,6 +203968,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.2,
+          "rain_probability_pct": 16,
+          "tmax_c": 31.8,
+          "tmin_c": 24,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -202580,6 +204901,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.9,
+          "rain_probability_pct": 31,
+          "tmax_c": 37.8,
+          "tmin_c": 26.3,
+          "risk": "中高",
+          "risk_level": "中高",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -203502,6 +205834,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0,
+          "rain_probability_pct": 4,
+          "tmax_c": 25.4,
+          "tmin_c": 15.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -204424,6 +206767,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.5,
+          "rain_probability_pct": 79,
+          "tmax_c": 25.5,
+          "tmin_c": 18,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -205346,6 +207700,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.6,
+          "rain_probability_pct": 67,
+          "tmax_c": 28.7,
+          "tmin_c": 20,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -206268,6 +208633,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.8,
+          "rain_probability_pct": 67,
+          "tmax_c": 26.2,
+          "tmin_c": 18.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -207190,6 +209566,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.2,
+          "rain_probability_pct": 81,
+          "tmax_c": 30.7,
+          "tmin_c": 22.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -208112,6 +210499,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.3,
+          "rain_probability_pct": 96,
+          "tmax_c": 30.2,
+          "tmin_c": 25.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -209034,6 +211432,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.5,
+          "rain_probability_pct": 88,
+          "tmax_c": 30.9,
+          "tmin_c": 23.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -209956,6 +212365,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.2,
+          "rain_probability_pct": 6,
+          "tmax_c": 33.8,
+          "tmin_c": 25.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -210878,6 +213298,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.1,
+          "rain_probability_pct": 2,
+          "tmax_c": 33.8,
+          "tmin_c": 27,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -211800,6 +214231,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5,
+          "rain_probability_pct": 100,
+          "tmax_c": 30.7,
+          "tmin_c": 23.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -212722,6 +215164,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.4,
+          "rain_probability_pct": 38,
+          "tmax_c": 31.3,
+          "tmin_c": 24.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -213644,6 +216097,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2,
+          "rain_probability_pct": 73,
+          "tmax_c": 31,
+          "tmin_c": 23.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -214566,6 +217030,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.2,
+          "rain_probability_pct": 90,
+          "tmax_c": 30.1,
+          "tmin_c": 23.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -215488,6 +217963,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 0.6,
+          "rain_probability_pct": 67,
+          "tmax_c": 29,
+          "tmin_c": 20.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -216410,6 +218896,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 5,
+          "rain_probability_pct": 100,
+          "tmax_c": 30.8,
+          "tmin_c": 23.7,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -217332,6 +219829,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.9,
+          "rain_probability_pct": 73,
+          "tmax_c": 30.8,
+          "tmin_c": 23.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -218254,6 +220762,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3,
+          "rain_probability_pct": 71,
+          "tmax_c": 29,
+          "tmin_c": 20.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -219176,6 +221695,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.2,
+          "rain_probability_pct": 90,
+          "tmax_c": 30.1,
+          "tmin_c": 23.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -220098,6 +222628,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1,
+          "rain_probability_pct": 76,
+          "tmax_c": 31.1,
+          "tmin_c": 23.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -221020,6 +223561,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.3,
+          "rain_probability_pct": 81,
+          "tmax_c": 30.9,
+          "tmin_c": 23.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -221942,6 +224494,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1.7,
+          "rain_probability_pct": 88,
+          "tmax_c": 31.3,
+          "tmin_c": 24.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -222864,6 +225427,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 3.3,
+          "rain_probability_pct": 96,
+          "tmax_c": 30.2,
+          "tmin_c": 25.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -223786,6 +226360,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 2.8,
+          "rain_probability_pct": 67,
+          "tmax_c": 27.3,
+          "tmin_c": 20.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     },
@@ -224708,6 +227293,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-09-27T01:40:52.756Z"
+        },
+        {
+          "date": "2026-09-27",
+          "rain_mm": 1,
+          "rain_probability_pct": 90,
+          "tmax_c": 30.9,
+          "tmin_c": 23.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-09-28T01:55:36.490Z"
         }
       ]
     }
