@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T05:37:04.432Z",
+  "generated_at": "2026-11-26T05:21:45.816Z",
   "source": "Daily snapshots accumulated from Open-Meteo forecast runs",
   "points": {
     "thailand-yala-betong": {
@@ -318355,6 +318355,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 12.7,
+          "tmin_c": 2.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -319915,6 +319926,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 12.3,
+          "tmin_c": 1.8,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -321475,6 +321497,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 7.7,
+          "tmin_c": -2.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -323035,6 +323068,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 16.9,
+          "tmin_c": 4.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -324595,6 +324639,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 15.8,
+          "tmin_c": 7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -326155,6 +326210,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 2,
+          "tmax_c": 13.4,
+          "tmin_c": 6.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -327715,6 +327781,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 3.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 17.3,
+          "tmin_c": 10.2,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -329275,6 +329352,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 15,
+          "tmin_c": -0.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -330835,6 +330923,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 1.3,
+          "rain_probability_pct": 62,
+          "tmax_c": 15.7,
+          "tmin_c": 12.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -332395,6 +332494,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0.2,
+          "rain_probability_pct": 51,
+          "tmax_c": 13.6,
+          "tmin_c": 5.5,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -333955,6 +334065,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 6,
+          "tmax_c": 15.2,
+          "tmin_c": 6.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -335504,6 +335625,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 2.7,
+          "rain_probability_pct": 61,
+          "tmax_c": 17.9,
+          "tmin_c": 12.8,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -337053,6 +337185,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 13.1,
+          "tmin_c": -0.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -338602,6 +338745,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 8.9,
+          "tmin_c": -3.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -340151,6 +340305,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 3.4,
+          "rain_probability_pct": 100,
+          "tmax_c": 20.3,
+          "tmin_c": 14.6,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -341700,6 +341865,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 3.7,
+          "rain_probability_pct": 100,
+          "tmax_c": 18.1,
+          "tmin_c": 12.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -343249,6 +343425,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 30,
+          "tmax_c": 14.3,
+          "tmin_c": 10.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -344798,6 +344985,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 2.3,
+          "rain_probability_pct": 27,
+          "tmax_c": 18.1,
+          "tmin_c": 13.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -346347,6 +346545,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 12.6,
+          "rain_probability_pct": 100,
+          "tmax_c": 17.6,
+          "tmin_c": 14.1,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -347896,6 +348105,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 2.7,
+          "rain_probability_pct": 73,
+          "tmax_c": 18.9,
+          "tmin_c": 14.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -349445,6 +349665,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0.7,
+          "rain_probability_pct": 35,
+          "tmax_c": 18.6,
+          "tmin_c": 15.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -350994,6 +351225,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0.1,
+          "rain_probability_pct": 6,
+          "tmax_c": 30.4,
+          "tmin_c": 21.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -352543,6 +352785,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 3.5,
+          "rain_probability_pct": 76,
+          "tmax_c": 27.4,
+          "tmin_c": 20,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -354092,6 +354345,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 29.9,
+          "tmin_c": 20,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -355641,6 +355905,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 28.3,
+          "tmin_c": 19.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -357190,6 +357465,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 6.2,
+          "rain_probability_pct": 100,
+          "tmax_c": 20.6,
+          "tmin_c": 14.6,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -358739,6 +359025,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0.1,
+          "rain_probability_pct": 6,
+          "tmax_c": 30.4,
+          "tmin_c": 21.4,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -360288,6 +360585,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 29.6,
+          "tmin_c": 20.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -361837,6 +362145,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0.3,
+          "rain_probability_pct": 61,
+          "tmax_c": 16.4,
+          "tmin_c": 13.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -363386,6 +363705,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0,
+          "rain_probability_pct": 0,
+          "tmax_c": 28.3,
+          "tmin_c": 19.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -364935,6 +365265,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0.6,
+          "rain_probability_pct": 33,
+          "tmax_c": 23.9,
+          "tmin_c": 20.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -366484,6 +366825,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0.2,
+          "rain_probability_pct": 30,
+          "tmax_c": 15,
+          "tmin_c": 10.9,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -368033,6 +368385,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 11.9,
+          "rain_probability_pct": 100,
+          "tmax_c": 18,
+          "tmin_c": 14.5,
+          "risk": "中",
+          "risk_level": "中",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -369582,6 +369945,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 2.3,
+          "rain_probability_pct": 27,
+          "tmax_c": 18.1,
+          "tmin_c": 13.3,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -371131,6 +371505,17 @@
           "risk_level": "中",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0.3,
+          "rain_probability_pct": 99,
+          "tmax_c": 17,
+          "tmin_c": 13.7,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     },
@@ -372680,6 +373065,17 @@
           "risk_level": "低",
           "source": "Open-Meteo past_days=1",
           "recorded_at": "2026-11-25T05:37:04.432Z"
+        },
+        {
+          "date": "2026-11-25",
+          "rain_mm": 0.6,
+          "rain_probability_pct": 99,
+          "tmax_c": 23.8,
+          "tmin_c": 20.1,
+          "risk": "低",
+          "risk_level": "低",
+          "source": "Open-Meteo past_days=1",
+          "recorded_at": "2026-11-26T05:21:45.816Z"
         }
       ]
     }
